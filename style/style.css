@@ -1,0 +1,166 @@
+@font-face {
+  font-family: Alkalami-Reguler;
+  src: url('font/Alkalami-Regular.ttf');
+}
+
+@font-face {
+  font-family: Philosopher;
+  src: url('font/Philosopher-Regular.ttf');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-brand {
+  font-family: Philosopher;
+}
+
+.carousel-item {
+  height: 625px;
+}
+
+.carousel-item #img-slide1, #img-slide3 {
+  height: 140%;
+  object-fit: cover;
+  filter: brightness(0.4);
+  animation: zoom 3s linear infinite;
+}
+
+.carousel-item #img-slide2 {
+  height: 150%;
+  object-fit: cover;
+  filter: brightness(0.4);
+  animation: zoom 3s linear infinite;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1.3);
+  }
+  15% {
+    transform: scale(1);
+  }
+  85% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
+
+.carousel-caption .btn-carousel {
+  background-color: transparent;
+  border: 2px solid #fff;
+}
+
+.carousel-caption .btn-carousel:hover {
+  background-color: #fd7250;
+  border: 2px solid #fd7250;
+}
+
+.carousel-caption h5 {
+  margin-top: -320px;
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.modal-footer .btn-modal {
+  border: 1px black solid;
+}
+
+.modal-footer .hvr-fade:hover {
+  background-color: red;
+  font-weight: bold;
+  color: #fff;
+}
+
+.blog {
+  position: relative;
+  margin: 4em 0;
+}
+
+.blog h1 {
+  margin: 2em;
+}
+
+.blog .card {
+  box-shadow: 0 0 5px rgb(134, 133, 133);
+  height: 515px;
+}
+
+.blog .card img {
+  width: 100%;
+  height: 15em;
+  filter: brightness(0.8);
+}
+
+.blog .card-body {
+  padding: 1em;
+}
+
+.documentation .card {
+  box-shadow: 0 0 5px rgb(134, 133, 133);
+}
+
+.step-work .card {
+  box-shadow: 0 0 5px rgb(134, 133, 133);
+  height: 14rem;
+}
+
+.step-work .card-title {
+  font-size: 13px;
+}
+
+.card-body .icon-step {
+  margin-top: 1.5rem;
+}
+
+.list-group-item span .fa-circle-xmark {
+  cursor: pointer;
+}
+
+.list-group-item .form-check-input {
+  cursor: pointer;
+}
+
+.contact {
+  background: linear-gradient(90deg,#0e3959 0%,#0e3959 30%,#03a9f5 30%,#03a9f5 100%) !important;
+}
+
+.bg-secondary {
+  height: 486px;
+}
+
+.table-contact span {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.map iframe {
+  width: 100%;
+  height: 550px;
+}
+
+.footer-bawah a {
+  text-decoration: none;
+  color: white !important;
+}
+
+footer {
+  font-size: 14px;
+  color: white !important;
+}
+
+footer h3 {
+  font-family: Philosopher;
+}
+
+footer a {
+  color: white !important;
+  text-decoration: none;
+}
